@@ -1,0 +1,106 @@
+.card {
+  margin: 2rem;
+  width: 32.5rem;
+  background-color: white;
+  padding: 3rem 2rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.basic-h {
+  text-align: center;
+  font-size: 1.5rem;
+  color: hsl(233, 13%, 49%);
+  margin-bottom: 2rem;
+}
+
+.dollar-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.price {
+  text-align: center;
+  font-size: 4.4rem;
+  color: hsl(232, 13%, 33%);
+}
+
+.dollar {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: hsl(232, 13%, 33%);
+}
+
+hr {
+  margin-bottom: 1rem;
+  background-color: hsl(234, 14%, 74%);
+  border: none;
+  height: 0.1rem;
+}
+
+.descriptions p {
+  font-size: 1.5rem;
+  color: hsl(233, 13%, 49%);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.basic-button {
+  margin-top: 2rem;
+  font-family: inherit;
+  font-size: 2rem;
+  background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  color: white;
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1rem 0;
+}
+
+.basic-button:hover {
+  color: hsl(237, 63%, 64%);
+  border: 0.1rem solid hsl(237, 63%, 64%);
+  background: white;
+}
+
+@media screen and (min-width: 1440px) {
+  .card {
+    margin: 0;
+    width: 42.5rem;
+    padding: 4rem 3rem;
+  }
+  .basic-h {
+    font-size: 2.4rem;
+    color: hsl(233, 13%, 49%);
+    margin-bottom: 3rem;
+  }
+
+  .dollar-div {
+    margin-bottom: 3rem;
+  }
+
+  .price {
+    text-align: center;
+    font-size: 6.4rem;
+  }
+
+  .dollar {
+    font-size: 4.2rem;
+  }
+
+  .descriptions p {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .basic-button {
+    margin-top: 3rem;
+
+    font-size: 3.2rem;
+
+    padding: 2rem 0;
+  }
+}

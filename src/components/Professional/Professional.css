@@ -1,0 +1,103 @@
+.card-prof {
+  margin: 2rem;
+  width: 32.5rem;
+  background: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+  padding: 3rem 2rem;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.prof-h {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.dollar-div-prof {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.price-prof {
+  text-align: center;
+  font-size: 4.4rem;
+}
+
+.dollar-prof {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+hr {
+  margin-bottom: 1rem;
+  background-color: hsl(234, 14%, 74%);
+  border: none;
+  height: 0.1rem;
+}
+
+.descriptions-prof p {
+  font-size: 1.5rem;
+
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.prof-button {
+  margin-top: 2rem;
+  font-family: inherit;
+  font-size: 2rem;
+  background: white;
+  color: hsl(237, 63%, 64%);
+  border: none;
+  border-radius: 0.8rem;
+  padding: 1rem 0;
+}
+
+.prof-button:hover {
+  color: white;
+  border: 0.1rem solid white;
+  background: hsl(237, 63%, 64%);
+}
+
+@media screen and (min-width: 1440px) {
+  .card-prof {
+    margin: 0;
+    width: 42.5rem;
+    padding: 7rem 3rem;
+  }
+  .prof-h {
+    margin-top: 0rem;
+    font-size: 2.4rem;
+    color: white;
+    margin-bottom: 3rem;
+  }
+
+  .dollar-div-prof {
+    margin-bottom: 3rem;
+  }
+
+  .price-prof {
+    text-align: center;
+    font-size: 6.4rem;
+  }
+
+  .dollar-prof {
+    font-size: 4.2rem;
+  }
+
+  .descriptions-prof p {
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .prof-button {
+    margin-top: 3rem;
+    font-size: 3.2rem;
+    padding: 2rem 0;
+  }
+}

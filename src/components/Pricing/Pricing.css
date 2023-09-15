@@ -1,0 +1,88 @@
+.pricing-div {
+  margin-bottom: 3.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-h {
+  text-align: center;
+  font-size: 2.4rem;
+  color: hsl(233, 13%, 49%);
+  font-weight: 700;
+  margin-bottom: 2.3rem;
+}
+
+.pricing-div span {
+  font-size: 1.5rem;
+  color: hsl(234, 14%, 74%);
+}
+
+.tariff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/*...............................style input ...............................*/
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  width: 4.3rem;
+  height: 2.2rem;
+  background: grey;
+  display: block;
+  border-radius: 3rem;
+  position: relative;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 0.1rem;
+  left: 0.1rem;
+  width: 2rem;
+  height: 2rem;
+  background: #fff;
+  border-radius: 1rem;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: hsl(237, 63%, 64%);
+}
+
+input:checked + label:after {
+  left: calc(100% - 0.1rem);
+  transform: translateX(-100%);
+}
+/*............................................................................................*/
+@media screen and (min-width: 1440px) {
+  .pricing-div {
+    position: absolute;
+    left: 49rem;
+    bottom: 33rem;
+    margin-bottom: 4.2rem;
+  }
+
+  .pricing-h {
+    font-size: 3.4rem;
+    margin-bottom: 3.3rem;
+  }
+
+  .pricing-div span {
+    font-size: 2.4rem;
+    color: hsl(234, 14%, 74%);
+  }
+
+  .tariff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
