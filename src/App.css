@@ -20,6 +20,10 @@ body {
   justify-content: center;
   align-items: center;
   background-color: hsl(240, 78%, 98%);
+  background-image: url(/images/bg-top.svg), url(/images/bg-bottom.svg);
+  background-repeat: no-repeat;
+  background-size: 40%, 50%;
+  background-position: right top, left bottom;
 }
 
 @media screen and (min-width: 1440px) {
@@ -29,5 +33,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: hsl(240, 78%, 98%);
+    background-image: url(/images/bg-top.svg), url(/images/bg-bottom.svg);
+    background-repeat: no-repeat;
+    background-size: 22%, 28%;
+    background-position: right top, left bottom;
   }
 }
